@@ -33,7 +33,7 @@ public abstract class Car implements Movable {
         color = clr;
     }
 
-    // TODO Might be needed in future labs?
+    // Might be needed in future labs?
     public String getModelName(){
         return modelName;
     }
