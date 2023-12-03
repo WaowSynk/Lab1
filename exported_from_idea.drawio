@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T18:53:14.469Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="onWUKjAUxZtyxAOVfdg6" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-03T18:56:37.599Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="BPU0sokOLGjqHyjwkMT5" version="22.1.5" type="github">
   <diagram id="63D0SC6yMOBSi5-bZof9" name="Sida-1">
-    <mxGraphModel dx="892" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2468" dy="2364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,9 +45,6 @@
         </mxCell>
         <mxCell id="node9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Vehicle&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;- modelName: String&lt;br&gt;- currentSpeed: double&lt;br&gt;- nrDoors: int&lt;br&gt;- color: Color&lt;br&gt;- enginePower: double&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ brake(double): void&lt;br&gt;+ gas(double): void&lt;br&gt;+ startEngine(): void&lt;br&gt;+ stopEngine(): void&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ move(): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ turnLeft(): void&lt;br&gt;+ turnRight(): void&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="400" width="261" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="node5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Volvo240&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ speedFactor(): double&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="725" y="1285" width="184" height="75" as="geometry" />
         </mxCell>
         <mxCell id="edge3" value="" style="html=1;rounded=1;dashed=0;startArrow=none;endArrow=block;endSize=12;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.326;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="node0" target="node9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry" />
@@ -104,9 +101,10 @@
             <mxPoint x="1164" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge16" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.001;entryDx=0;entryDy=0;" parent="1" source="node7" target="node5" edge="1">
+        <mxCell id="edge16" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=openThin;endSize=12;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.569;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="node7" target="jj9C67cErWJgnQIG0P2M-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="817" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="edge5" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.275;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="node11" target="node13" edge="1">
@@ -209,12 +207,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge9" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.153;entryY=1.074;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="node5" target="node0" edge="1">
+        <mxCell id="edge9" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;exitX=0.571;exitY=-0.004;exitDx=0;exitDy=0;entryX=0.153;entryY=1.074;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="jj9C67cErWJgnQIG0P2M-5" target="node0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="817" y="1130" />
               <mxPoint x="965" y="1130" />
             </Array>
+            <mxPoint x="817" y="1285" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M6Yq3P4-TmKBTQ1HEDmo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=openThin;strokeColor=#595959;startArrow=none;endSize=12;" parent="1" source="node14" target="node7" edge="1">
@@ -228,6 +227,12 @@
         </mxCell>
         <mxCell id="jj9C67cErWJgnQIG0P2M-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Saab95&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- turboOn(): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ setTurboOff(): void&lt;br&gt;+ setTurboOn(): void&lt;br&gt;+ speedFactor(): double" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="1261" width="192" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="jj9C67cErWJgnQIG0P2M-4" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jj9C67cErWJgnQIG0P2M-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Volvo240&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- trimFactor(): double&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ speedFactor(): double" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="1261" width="192" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
