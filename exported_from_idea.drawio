@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T18:56:37.599Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="BPU0sokOLGjqHyjwkMT5" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T12:33:09.492Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="cxA7PlgYcoiV3d3DXMTN" version="22.1.5" type="github">
   <diagram id="63D0SC6yMOBSi5-bZof9" name="Sida-1">
-    <mxGraphModel dx="2468" dy="2364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1693" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -225,14 +225,47 @@
         <mxCell id="lAD4wt91s3g2YjGuZIkg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="node9" target="node9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jj9C67cErWJgnQIG0P2M-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Saab95&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- turboOn(): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ setTurboOff(): void&lt;br&gt;+ setTurboOn(): void&lt;br&gt;+ speedFactor(): double" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="jj9C67cErWJgnQIG0P2M-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Saab95&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- turboOn(): boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ setTurboOff(): void&lt;br&gt;+ setTurboOn(): void&lt;br&gt;+ speedFactor(): double" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="1261" width="192" height="139" as="geometry" />
         </mxCell>
-        <mxCell id="jj9C67cErWJgnQIG0P2M-4" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jj9C67cErWJgnQIG0P2M-4" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="1380" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jj9C67cErWJgnQIG0P2M-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Volvo240&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- trimFactor(): double&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ speedFactor(): double" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="jj9C67cErWJgnQIG0P2M-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Volvo240&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- trimFactor(): double&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ speedFactor(): double" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="707" y="1261" width="192" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d-iy6AdxNXWdCT6JrIo5-1" value="&lt;div&gt;Subclass (is-a)&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="352" y="400" as="sourcePoint" />
+            <mxPoint x="522" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-iy6AdxNXWdCT6JrIo5-2" value="Dependency (uses-a)" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0125" y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="363" y="560" as="sourcePoint" />
+            <mxPoint x="523" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-iy6AdxNXWdCT6JrIo5-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="363" y="440" as="sourcePoint" />
+            <mxPoint x="523" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-iy6AdxNXWdCT6JrIo5-5" value="Interface (implements)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="367" y="418" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d-iy6AdxNXWdCT6JrIo5-13" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="363" y="509.74" as="sourcePoint" />
+            <mxPoint x="523" y="509.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-iy6AdxNXWdCT6JrIo5-14" value="&lt;div&gt;Composition (has-a)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d-iy6AdxNXWdCT6JrIo5-13">
+          <mxGeometry x="0.1283" y="-1" relative="1" as="geometry">
+            <mxPoint x="-17" y="-11" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
